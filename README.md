@@ -15,7 +15,10 @@ sails new ngSails
 cd ngSails
 ```
 
-in config/cors.js change allRoutes: true
+in config/cors.js change 
+```sh
+allRoutes: true
+```
 generate the user api and start the server
 
 ```sh
