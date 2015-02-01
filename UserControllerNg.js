@@ -9,3 +9,6 @@ $http.get(
     alert('error');
   });
 }
+
+var app = angular.module('app', []);
+app.controller('UserController', UserController); 
