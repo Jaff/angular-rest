@@ -41,4 +41,4 @@ git clone https://github.com/pkral3/angular-rest.git
 and open simple.html with web-browser. bstrap.html contains
 an example with angularjs and bootstrap template from 
 http://getbootstrap.com/examples/jumbotron/ . resource.html
-is an example with angular $resource.
+is an example with $resource from angular-resource.js.
