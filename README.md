@@ -8,7 +8,7 @@ rest services. To run the examples install Sails
 npm install -g sails 
 ```
 
-and create a project
+and create the server project
 
 ```sh
 sails new ngSails
