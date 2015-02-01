@@ -1,2 +1,4 @@
 # angular-rest
-simple angular rest call example with sails
+Simple Angular rest call example with Sails.
+
+
