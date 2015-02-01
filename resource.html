@@ -3,6 +3,11 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-resource.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
 var angularExample=angular.module('angularexample',["ngResource"]);
 angularExample.controller("MainCtrl",["$resource","$scope",function($resource,$scope){
@@ -23,14 +28,20 @@ angularExample.controller("MainCtrl",["$resource","$scope",function($resource,$s
 </script>
 </head>
 <body>
-<h2>Users</h2>
-<div ng-controller="MainCtrl">
-  <div ng-repeat="user in users">
-  User name {{user.name}}:</td><td> <input type="text" ng-model="user.name"/><button type="submit" ng-click="save(user)">update</button><br/>
-  </div>
-  <p>
-  Add new: </td><td><input type="text" ng-model="newVegetable.name"/><button type="submit" ng-click="add()">add</button>
-  </p>
+
+<div class="container">
+    <div class="jumbotron">
+        <h2>Users</h2>
+        <div ng-controller="MainCtrl">
+          <div ng-repeat="user in users">
+          User name {{user.name}}:</td><td> <input type="text" ng-model="user.name"/><button type="submit" ng-click="save(user)">update</button><br/>
+          </div>
+          <p>
+          Add new: </td><td><input type="text" ng-model="newVegetable.name"/><button type="submit" ng-click="add()">add</button>
+          </p>
+        </div>
+    </div>
 </div>
+
 </body>
 </html>
