@@ -7,7 +7,6 @@
 var angularExample=angular.module('angularexample',["ngResource"]);
 angularExample.controller("MainCtrl",["$resource","$scope",function($resource,$scope){
   var userCollection = $resource("http://localhost:1337/user");
-  console.info(userCollection);
   
   var userResource = $resource("http://localhost:1337/user/:id/",{id:'@id'},{update: { method: 'PUT' }});
   $scope.users = userCollection.query(function(){});
