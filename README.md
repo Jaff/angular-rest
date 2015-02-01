@@ -1,7 +1,7 @@
 # angular-rest
 Simple Angular rest call example with Sails.
 
-The example demonstrates angular $http calls to
+The example demonstrates angular $http and $resource calls to
 rest services. To run the examples install Sails
 
 ```sh
@@ -40,4 +40,5 @@ git clone https://github.com/pkral3/angular-rest.git
 
 and open simple.html with web-browser. bstrap.html contains
 an example with angularjs and bootstrap template from 
-http://getbootstrap.com/examples/jumbotron/  
+http://getbootstrap.com/examples/jumbotron/ . resource.html
+is an example with angular $resource.
