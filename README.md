@@ -1,7 +1,7 @@
 # angular-rest-sails
 Simple [Angularjs](https://angularjs.org) rest call example with [Sails](http://sailsjs.org).
 
-The example demonstrates angular $http and $resource calls to
+The examples demonstrate angular $http and $resource calls to
 rest services. To run the examples install Sails
 
 ```sh
