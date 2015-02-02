@@ -1,8 +1,8 @@
-# angular-rest
+# angular-rest-sails
 Simple Angular rest call example with Sails.
 
 The example demonstrates angular $http and $resource calls to
-rest services. To run the examples install Sails
+rest services. To run the examples install [Sails](http://sailsjs.org)
 
 ```sh
 npm install -g sails 
